@@ -9,5 +9,5 @@
 - [x] Boa Práticas com JavaScript:white_check_mark:
 - [x] Validação de Formulários:white_check_mark:
 - [x] Remoção, Delegação e Animação:white_check_mark:
-- [ ] Filtrando uma tabela [EM ANDAMENTO]
+- [ ] Filtrando uma tabela [EM ANDAMENTO] :grinning:
 - [ ] AjaxBuscando pacientes com AJAX
