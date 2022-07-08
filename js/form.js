@@ -6,8 +6,6 @@ botaoAdicionar.addEventListener("click", function(event){
 
     var erros = validaPaciente(paciente);
 
-
-
     if(erros.length > 0){
         document.querySelector("#mensagem-erro").innerHTML = "";
         for (var i = 0; i < erros.length; i++) {
@@ -23,6 +21,10 @@ botaoAdicionar.addEventListener("click", function(event){
     form.reset();
     document.querySelector("#mensagem-erro").innerHTML = "";
 });
+
+function adicionaPAcienteNaTabela(paciente){
+    document.querySelector("#tabela-pacientes").appendChild(montaTr(paciente))
+}
 
 
 function obtemPacienteDoFormulario(form){

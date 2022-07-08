@@ -78,11 +78,9 @@ label{
 
 .campo{
 	margin: 0;
-	padding-bottom: 1em;
 	width: 100%;
 	border: 1px solid #ccc;
 	padding: .7em;
-	width: 100%;
 }
 
 .campo-medio{
@@ -93,7 +91,7 @@ label{
 .grupo{
 	width: 32%;
 	display: inline-block;
-	padding: 10px 0px;
+	padding: 10px 0;
 }
 #nome{
 	width: 306%;
@@ -101,20 +99,17 @@ label{
 
 button{
 	padding: .3em 2em;
-	border: 0;
-	border-bottom: 3px solid;
+	border: 0 solid #04324c;
+	border-bottom: 3px solid #04324c;
 	font-size: 1.2em;
 	cursor: pointer;
 	text-align: center;
-	margin: 0;
-	margin-top: -3px;
 	color: #fff;
 	background-color:#0c8cd3;
-	border-color: #04324c;
 	width: 30%;
     display: block;
     clear: both;
-    margin: 15px 0px;
+    margin: 15px 0;
 	border-radius: 8px;
 	box-shadow: 0 3px 11px 0 rgba(0,0,0,0.2), 0 1px 15px 0 rgba(0,0,0,0.19);
 
@@ -155,4 +150,14 @@ button[disabled=disabled], button:disabled {
 .fadeOut{
 	opacity: 0;
 	transition: 0.5s;
+}
+
+#filtrar-tabela{
+	width: 200px;
+	height: 35px;
+	margin-bottom: 5px;
+}
+
+.invisivel{
+	display: none;
 }
